@@ -237,7 +237,7 @@ async def start(client, message):
             select_random_channel = random.choice(LAZY_DIVERTING_CHANNEL_ID)
             SELECTED_CHANNEL = int(select_random_channel)
             
-            along_with_lazy_info = "**⚠ DELETING IN 10 minute ⚠**"
+            along_with_lazy_info = "**⚠ DELETING IN 15 minute ⚠**"
             along_with_lazy_footer = f"**Dear {message.from_user.mention}"
             lazy_caption_template =f"{along_with_lazy_info}\n\n{f_caption}\n\n{along_with_lazy_footer}"
             try:
@@ -579,7 +579,7 @@ async def start(client, message):
                     f_caption=CUSTOM_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='')
                 except:
                     return
-            along_with_lazy_info = "**⚠ DELETING IN 10 minute ⚠**"
+            along_with_lazy_info = "**⚠ DELETING IN 15 minute ⚠**"
             along_with_lazy_footer = f"**Dear {message.from_user.mention}"
             lazy_caption_template =f"{along_with_lazy_info}\n\n{f_caption}\n\n{along_with_lazy_footer}"
             await msg.edit_caption(lazy_caption_template)
@@ -631,7 +631,7 @@ async def start(client, message):
     # ./check verfication end
     select_random_channel = random.choice(LAZY_DIVERTING_CHANNEL_ID)
     SELECTED_CHANNEL = select_random_channel
-    along_with_lazy_info = "**⚠ DELETING IN 10 minute ⚠**"
+    along_with_lazy_info = "**⚠ DELETING IN 15 minute ⚠**"
     along_with_lazy_footer = f"**Dear {message.from_user.mention} ! Please forward this file to other chat or saved message ❤"
     lazy_caption_template =f"{along_with_lazy_info}\n\n{f_caption}\n\n{along_with_lazy_footer}"
             
