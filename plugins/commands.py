@@ -277,7 +277,7 @@ async def start(client, message):
                         text=f"🎉 File Uploaded here ✅\n\nHere is the channel link - Join & Get file 👇\n\n **{lazy_invite_url}**\n\n⚠Note: Dear {message.from_user.mention}, if you stay subscribed to the channel, you will receive direct links next time ❤"
                     )
                     # print(f'User is not subscribed: Got url => {lazy_invite_url}')
-                await asyncio.sleep(600)
+                await asyncio.sleep(900)
                 await lmsg.delete()
                 await fusss.delete()
                 await fasss.delete()
@@ -588,7 +588,7 @@ async def start(client, message):
             # InlineKeyboardButton("❗ ɢᴇᴛ ꜰɪʟᴇ ᴀɢᴀɪɴ ❗", callback_data=f'delfile#{file_id}')
             #             ]]
             # lost = await client.send_message(chat_id = message.from_user.id, text=f"<b>⚠ <u>warning ⚠</u> </b>\n\n<b>ᴛʜɪꜱ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ</b> <b><u>30 ᴍɪɴᴜᴛᴇꜱ</u> </b><b>(ᴅᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ ɪꜱꜱᴜᴇꜱ).</b>\n\n<b><i>📌 ᴘʟᴇᴀꜱᴇ ꜰᴏʀᴡᴀʀᴅ ᴛʜɪꜱ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ ᴛᴏ ꜱᴏᴍᴇᴡʜᴇʀᴇ ᴇʟꜱᴇ ᴀɴᴅ ꜱᴛᴀʀᴛ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇʀᴇ.</i></b>")
-            await asyncio.sleep(600)
+            await asyncio.sleep(900)
             print('HIt auto delete msg')
             await msg.delete()
             await fugg.delete()
@@ -693,7 +693,7 @@ async def start(client, message):
     #             InlineKeyboardButton("❗ ɢᴇᴛ ꜰɪʟᴇ ᴀɢᴀɪɴ ❗", callback_data=f'delfile#{file_id}')
     #             ]]
     # lzzz = await client.send_message(chat_id = message.from_user.id, text=f"<b>⚠ <u>warning ⚠</u> </b>\n\n<b>ᴛʜɪꜱ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ</b> <b><u>30 ᴍɪɴᴜᴛᴇꜱ</u> </b><b>(ᴅᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ ɪꜱꜱᴜᴇꜱ).</b>\n\n<b><i>📌 ᴘʟᴇᴀꜱᴇ ꜰᴏʀᴡᴀʀᴅ ᴛʜɪꜱ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ ᴛᴏ ꜱᴏᴍᴇᴡʜᴇʀᴇ ᴇʟꜱᴇ ᴀɴᴅ ꜱᴛᴀʀᴛ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇʀᴇ.</i></b>")
-    await asyncio.sleep(600)
+    await asyncio.sleep(900)
     # print('reached auto delete lazyfile')
 
     await lazy_file.delete()
